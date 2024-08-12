@@ -68,8 +68,8 @@ def main_run(config=None):
                                 'n_epochs': 6}  # type: ignore
 
         # Best hyperparameters found by ray tune script. This might not be completely accurate.
-        best_hyperparameters = {'learning_rate': 0.0013908, 'n_steps': 128, 'batch_size': 128, 'gamma': 0.9631,
-                                'clip_range': 0.24169, 'n_epochs': 6}
+        # best_hyperparameters = {'learning_rate': 0.0013908, 'n_steps': 128, 'batch_size': 128, 'gamma': 0.9631,
+        #                         'clip_range': 0.24169, 'n_epochs': 6}
         feature_dim = 64
 
 
